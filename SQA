@@ -1,0 +1,29 @@
+Quality Assurance - making sure a software or app is made the right way, so it functions well and doesn’t have many bugs or errors. 
+
+ 
+
+2 Testing Approaches Technique: 
+
+Proactive - The testing is planned very early so problems can be found and fixed before the software is built. 
+
+Reactive - An approach in which the testing is not started until after design and coding are completed. 
+
+ 
+
+3 Approaches to implement Functional Testing: 
+
+White Box Testing - They test the code, design, and structure to make sure everything is working correctly, and to find any problems that could affect performance, security, or usability. 
+
+also called "Clear box testing," "Open box testing," or "Glass box testing." 
+
+Black Box Testing - a method where testers focus on how the software behaves without knowing anything about its internal code or structure.  
+
+They only care about what the software does when you give it inputs and what it outputs. 
+
+Gray Box Testing - a technique where testers have partial knowledge of the software's internal workings, meaning they know some parts of the code or design, but not everything. Combination of White Box Testing and Black Box Testing.  
+
+ 
+
+Test Oracle - a way to check if a program is working correctly. Comparing the actual result to the expected result.  
+
+Test prioritization - is about deciding which test cases to run first, based on their importance. 
