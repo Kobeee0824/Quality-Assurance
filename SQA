@@ -30,3 +30,37 @@ Gray Box Testing - a technique where testers have partial knowledge of the softw
 Test Oracle - a way to check if a program is working correctly. Comparing the actual result to the expected result.
 
 Test prioritization - is about deciding which test cases to run first, based on their importance.
+
+Project Management Tool
+
+Jira - software application used for issue tracking and project management. Used by agile development teams to track bugs, stories, epics, and other tasks.
+
+
+Testing Techniques
+
+Functional Testing - type of testing that checks if the software works according to the functional requirements. Basically, what is the software supposed to do.
+
+Types:
+
+User Acceptance Testing (UAT) - final step in the testing process, where the end users or clients test the software to make sure it meets their needs before it’s released to the public. It happens after all the other tests (like functional, integration, and system testing) are done, which means it’s the last chance to find any issues before the software is deployed.
+
+Exploratory Testing - testers explore the software without predefined test cases. Instead of following a strict plan, they interact with the software, trying out different things to see how it behaves.
+
+Sanity Testing – When you add something new (like a feature or a bug fix), it's a test to make sure the new change is functioning as expected.
+
+Ex: Imagine a login system:
+
+· A bug in the password field was fixed
+
+· Now you do sanity testing by:
+
+o Trying to log in with the correct password
+
+o Trying a wrong password
+
+You only test the login feature, not the whole app.
+
+
+Regression Testing - When you add something new, you test the entire software to see if the new change affects any other part of the system.
+
+Ex: You fix a bug in the login system
