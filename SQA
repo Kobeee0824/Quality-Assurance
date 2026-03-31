@@ -64,3 +64,44 @@ You only test the login feature, not the whole app.
 Regression Testing - When you add something new, you test the entire software to see if the new change affects any other part of the system.
 
 Ex: You fix a bug in the login system
+
+Now you test:
+
+· Login
+
+· Signup
+
+· Forgot password
+
+Even though you only fixed login, you check other features too.
+
+Smoke Testing - When a new version of the software is released, the testing team runs a few basic tests to see if the most important features work. If it passes the testing, they move on to more detailed testing. If it doesn't work, they stop and fix the major issues first.
+
+Simple idea
+
+Before doing detailed testing, you first check:
+
+“Does the app even run properly?”
+
+If it fails here, no need to test further.
+
+📱 Example
+
+For an app, smoke testing checks:
+
+· App opens without crashing
+
+· Login works
+
+· Basic navigation works
+
+You’re not testing deeply—just the important basics.
+
+
+Unit Testing - is when you test small parts of the software, like a module or function or a specific piece of code, to make sure it works correctly.
+
+Ex: Suppose you have a function:
+
+def add(a, b): return a + b
+
+In unit testing, you check:
