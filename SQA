@@ -105,3 +105,40 @@ Ex: Suppose you have a function:
 def add(a, b): return a + b
 
 In unit testing, you check:
+
+add(2, 3) → 5
+
+· add(-1, 1) → 0
+
+· add(0, 0) → 0
+
+You’re only testing this one function, not the whole program.
+
+Integration Testing - is when you test how different parts (or modules) of the software work together. For example, if one module handles login and another handles user data, Integration Testing would check if the login module can pass user info correctly to the user data module.
+
+EX: Imagine an app with:
+
+· Login module
+
+· Database
+
+· Dashboard
+
+In integration testing, you check:
+
+· User logs in → data is checked in database
+
+· After login → dashboard loads correctly
+
+You’re testing the interaction between modules.
+
+
+Mocking - is when you create a mimic version of real dependencies (database, API, or etc), so you can test your code without needing the real thing. It behaves just like the real thing but doesn't actually do anything complex. This helps you focus on testing your code without worrying about external systems.
+
+Ex: Imagine you're testing a weather app. Instead of getting real weather data from the internet, you use a fake weather service (a mock). This fake service always gives you some weather info, like "It's sunny" or "It's raining," so you can test how the app works without needing the real weather data.
+
+
+
+Non-Functional Testing – to test non-feature areas like reliability, load test, performance, and accountability of the software.
+
+Types:
