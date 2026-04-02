@@ -142,3 +142,101 @@ Ex: Imagine you're testing a weather app. Instead of getting real weather data f
 Non-Functional Testing – to test non-feature areas like reliability, load test, performance, and accountability of the software.
 
 Types:
+
+Performance testing - is about checking how well a system (like a website or app) works under different conditions. The goal is to see how the system performs in terms of speed, how many users it can handle, and how stable it is. You want to make sure everything runs smoothly, even when things get really busy. 
+
+Key Focus Areas (Three S’s) 
+
+When doing performance testing, there are three important things to look at: 
+
+Speed: How fast does the system respond? 
+
+Scalability: How many users can use it at the same time? 
+
+Stability: Can the system keep working without crashing, even over time? 
+
+Types of Performance Testing 
+
+Ex: Lighhouse, Locust, Webpage Test, Gatling, K6, Artillery, Vegeta, JMeter 
+
+Here are some common types of performance testing, each focusing on different things: 
+
+Load Testing: Testing how the system performs when lots of people use it at once (like during a big sale or event). 
+
+Stress Testing: Pushing the system beyond its limits to see how it behaves when overloaded (to check if it crashes or recovers). 
+
+Spike Testing: Quickly increasing the number of users or requests to see how the system handles sudden jumps in traffic. 
+
+Endurance Testing: Checking how the system performs over a long period of time, like if it stays fast and stable after being used for hours or days. 
+
+Volume Testing: Testing how well the system handles large amounts of data, like thousands or millions of records. 
+
+Scalability Testing: Checking if the system can handle increased load or users over time without breaking. 
+
+Capacity Testing: Testing the maximum load the system can handle, to see how much traffic it can support before it starts to struggle. 
+
+Security testing - is about making sure a software application is safe from bad actors (like hackers or malicious users). It helps find and fix weaknesses in the software that could let someone steal data, break things, or cause other types of damage. 
+
+Secrets Management is a way to safely store, organize, and use sensitive information that software or systems need to work. These includes Passwords, API keys, SSH keys, Certificates, Backup codes 
+
+Vulnerability Scanning is a way to automatically check computers, servers, and networks for security weaknesses. 
+
+Accessibility testing - is a way to check if a website or app can be used by everyone, including people with disabilities. This means making sure that people who have problems with their sight, hearing, or mobility can still use the app or website easily. 
+
+Ex: Wave, AXE, Chrome DevTools 
+
+ 
+
+Email Testing - allows you to view your email before sending it out to your subscriber list to verify links, design, spelling errors, and more. 
+
+Ex: Mailinator, Gmail Tester 
+
+Test Data Management is about making sure testers have the data they need to test software. 
+
+Testers need data that is correct, safe, and easy to use. 
+
+This helps check if the software works properly. 
+
+Ways to handle test data include: 
+
+Data masking – hiding sensitive information 
+
+Data generation – creating test data 
+
+Data subsetting – using a smaller set of data for testing 
+
+Data virtualization – simulating data without copying it 
+
+Ex: Delphix 
+
+The Software Development Life Cycle (SDLC) - is a systematic process to build software. It helps teams plan how and what to develop, maintain, replace, modify, or enhance the software.  
+
+Agile Model – It is where an entire work is broken into smaller pieces. Basic plans and requirements are defined at the start, but details can change over time (continuous delivery). As you move along the SDLC phases, you are allowed to go back to the previous stage just to address a particular issue or feedback. It is an iterative process. 
+
+Kanban provides a practical way of visualizing the tasks and work capacity of a team. Meaning, tasks are shown on a board (either physical or digital), so everyone can easily see what is being worked on, what is pending, and what is completed. 
+
+Scrum is a method where the Scrum team defines the goals for one sprint, and then sets new goals for the next sprint. 
+
+Extreme Programming (XP) is an Agile method that focuses on building high-quality software while also making work better and less stressful for developers. It uses clear rules and best practices to guide how software should be designed, written, and tested. XP is more detailed than other Agile frameworks when it comes to how developers should code and work together, helping teams produce reliable software efficiently. 
+
+SAFe (Scaled Agile Framework) helps big companies use Agile when many teams are working together. It shows teams how to plan, work, and stay organized at different levels. 
+
+It has three main levels: 
+
+Team – people doing the actual work 
+
+Program – groups of teams working together 
+
+Portfolio – managing big goals and priorities 
+
+ 
+
+ 
+
+Testing Methodologies 
+
+Test Driven Development (TDD) - way of writing software where you create tests before writing the code. 
+
+First, you write a test that defines what the code should do. 
+
+Then, you write the smallest amount of code needed to pass the test. 
