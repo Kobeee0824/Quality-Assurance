@@ -240,3 +240,83 @@ Test Driven Development (TDD) - way of writing software where you create tests b
 First, you write a test that defines what the code should do. 
 
 Then, you write the smallest amount of code needed to pass the test. 
+
+If the test fails, you fix the code until it passes. 
+
+Acceptance Test-Driven Development (ATDD) is a way of building software where the whole team agrees on what the software should do before coding starts. 
+
+The team writes acceptance criteria (rules for how the software should behave). 
+
+These criteria are turned into automated tests. 
+
+Developers write code to pass these tests, making sure the software does what stakeholders want. 
+
+Behavior-Driven Development (BDD) is a way of building software where developers, testers, and business people work together. 
+
+They describe how the software should behave in plain, easy-to-understand language. 
+
+They give examples of what should happen in different situations. 
+
+These examples are turned into automated tests to make sure the software works as expected. 
+
+Root Cause Analysis (RCA) a systematic problem-solving method that aims to identify the fundamental reasons behind an issue or event. 
+
+Instead of just fixing the obvious problem, RCA digs deeper to find the main cause. 
+
+Once the root cause is known, solutions can be made to prevent the same problem from happening again. 
+
+ 
+
+Manual Testing is a type of software testing where a tester checks the software by hand, without using any automated tools. 
+
+The tester follows test cases to see if the software works correctly. 
+
+The goal is to find bugs, errors, or issues in the application. 
+
+It is one of the oldest and simplest testing methods, and it helps catch important problems that might affect users. 
+
+Test Case is a detailed series of steps plan to check if a specific part of the software works correctly. 
+
+It includes steps to follow, data to use, conditions before and after the test, and what the expected result should be. 
+
+Testers use it to compare the actual result with the expected result to see if the software works as intended. 
+
+Test scenario is a high-level description of something that can be tested in the software. 
+
+It covers a group of related test cases. 
+
+Test scenarios help the team check both positive (what should work) and negative (what shouldn’t work) cases of the software. 
+
+Compatibility Testing is a type of software testing that checks if your software works properly on different devices, operating systems, browsers, networks, or hardware. 
+
+Verification: 
+
+Verification is about checking the software during development. 
+
+It ensures the software is built correctly according to the requirements, design, and plan. 
+
+Activities include reviews, walkthroughs, and inspections. 
+
+Think of it as: “Are we building the product right?” ✅ 
+
+Validation: 
+
+Validation is about checking the software after it’s built. 
+
+It ensures the software actually meets the customer’s needs and works correctly in real use. 
+
+Activities include unit testing, integration testing, system testing, and user acceptance testing. 
+
+Think of it as: “Are we building the right product?” 🎯 
+
+A Test Plan is a document that explains how testing will be done for a software product. 
+
+It includes the testing strategy, goals, schedule, resources, and deliverables. 
+
+It helps the team plan the work and effort needed to make sure the software is of good quality. 
+
+ 
+
+Automated Testing  
+
+Front-end automation is a type of automation that works where the user interacts with the software, like on websites or applications. 
