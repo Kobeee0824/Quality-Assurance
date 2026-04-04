@@ -320,3 +320,55 @@ It helps the team plan the work and effort needed to make sure the software is o
 Automated Testing  
 
 Front-end automation is a type of automation that works where the user interacts with the software, like on websites or applications. 
+
+QA / Test Report - is a document that summarizes all the testing done on a software. 
+
+It lists what was tested (test cases) and the results (passed, failed, or issues found). 
+
+It shows the health and quality of the software. 
+
+It also points out areas that need improvement. 
+
+QA reports are usually created regularly to make sure the software meets quality standards. 
+
+Ex: TestRail, Allure, jUnit 
+
+DevOps monitoring and logs are about watching how software works at every stage, from when it’s planned and built to when it’s released and used by people. It gives teams a clear, real-time view of applications, services, and systems so they can quickly notice problems. By looking at live data, past records, and visualizations, teams can understand what’s happening now, what happened before, and fix issues faster to keep everything running smoothly. 
+
+Ex: New Relic, RunScope, Kibana, Datadog, Pager Duty, Grafana, Sentry 
+
+Version control system, also called source control, is a system that helps developers keep track of changes made to code over time. It lets them save updates, create separate branches to work on features, compare different versions, and see who made changes and when. This makes it easier to manage teamwork, fix mistakes, and understand why changes were made. 
+
+Ex: Git 
+
+Repo Hosting Services – Github, Bitbucket, GitLab 
+
+ 
+
+CI/CD - Ex: Circle CI, GitLab CI, Jenkins, Travis CI, Bamboo, Drone, TeamCity, Azure DevOps Services 
+
+Continuous Integration - means developers regularly add their code to a shared project. Every time someone adds code, the system automatically checks it by building the app and running tests. 
+
+Continuous Delivery - means making small changes to software often and checking them right away, so the software is always ready to be released. The team builds and tests the software regularly, which helps find problems early, release updates faster, and save time, money, and effort while reducing the risk of big mistakes. 
+
+Headless testing - you don’t see the website visually like you would in a normal browser. Everything happens “in the background.” The browser still runs all the code, responds to clicks, fills forms, and navigates pages, but there’s no visible window or interface for you to look at. 
+
+What you can see are the results of the test, like: 
+
+Whether a button click worked or a form submitted successfully 
+
+Data collected from the webpage 
+
+Screenshots the system generates (if you set it up to take them) 
+
+Logs or error messages from the browser 
+
+So basically, you see the outcomes, not the website itself in real-time. 
+
+Ex: Zombie.js, Puppeteer, Cypress, Playwright, Headless Chrome, Headless Fox, HTML Unit 
+
+ 
+
+ 
+
+ 
